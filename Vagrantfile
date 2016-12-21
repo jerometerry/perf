@@ -6,5 +6,6 @@ Vagrant.configure("2") do |config|
 	  v.memory = 2048
 	  v.cpus = 2
   end
-  config.vm.provision "war", type: "shell", path: "./configure.sh"
+  config.vm.provision "file", source: "./generate-flamegraph.sh", destination: "generate-flamegraph.sh"
+  config.vm.provision "shell", path: "./configure.sh"
 end

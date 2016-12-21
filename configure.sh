@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo chmod +x generate-flamegraph.sh
+
 sudo apt-get update
 sudo apt-get install -y openjdk-8-jdk openjdk-8-dbg 
 sudo apt-get install -y tomcat7 tomcat7-examples
