@@ -2,7 +2,7 @@
 
 sudo apt-get update
 sudo apt-get install -y openjdk-8-jdk openjdk-8-dbg 
-sudo apt-get install -y tomcat7 
+sudo apt-get install -y tomcat7 tomcat7-examples
 sudo cp /vagrant/tomcat7 /etc/default/tomcat7
 service tomcat7 restart
 
