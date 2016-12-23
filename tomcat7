@@ -1,4 +1,4 @@
 TOMCAT7_USER=tomcat7
 TOMCAT7_GROUP=tomcat7
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-JAVA_OPTS="-Djava.awt.headless=true -Xmx1024m -XX:+UseG1GC -XX:+PreserveFramePointer"
+JAVA_OPTS="-Djava.awt.headless=true -Xmx1024m -XX:+UseG1GC -XX:+PreserveFramePointer -XX:+UnlockDiagnosticVMOptions -XX:+DebugNonSafepoints"
