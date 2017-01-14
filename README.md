@@ -23,6 +23,7 @@ Open JMeter, and load the FlameGraph.jmx test plan, then hit the run button (mig
 vagrant ssh
 
 sudo ~/generate-flamegraph.sh
+./copy-flamegraph-to-host.sh
 
 exit
 
